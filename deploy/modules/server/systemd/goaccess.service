@@ -1,0 +1,11 @@
+[Unit]
+Description=Live Log Analyzer
+
+[Service]
+ExecStart=/var/www/docs/server/goaccess.sh
+ExecStop=/bin/kill -9 ${MAINPID}
+PrivateTmp=false
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "skruv-dev-server",
+    "build": "esbuild libraries/*.js --format=esm --bundle --outdir=libraries_built"
+  },
+  "dependencies": {
+    "es-module-shims": "^0.10.3",
+    "skruv": "^0.2.3",
+    "uplot": "^1.6.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.11.5",
+    "marked": "^2.0.1",
+    "skruv-dev-server": "^0.0.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "skruv-dev-server"
+  },
+  "dependencies": {
+    "es-module-shims": "^0.10.3",
+    "skruv": "^0.2.3",
+    "uplot": "^1.6.7"
+  },
+  "devDependencies": {
+    "skruv-dev-server": "^0.0.3"
+  }
+}

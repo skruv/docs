@@ -1,0 +1,36 @@
+{
+  "name": "skruv-docs",
+  "type": "module",
+  "scripts": {
+    "eslint": "eslint . --ext js,json",
+    "build-md-prism": "node build-md-prism.js",
+    "cache-bust": "sed -i \"s/CACHE_BUST/CACHE_$(git rev-parse HEAD)/\" index.html",
+    "stylelint": "stylelint \"**/*.{js,css,html}\"",
+    "build": "esbuild libraries/*.js --format=esm --bundle --outdir=libraries_built --loader:.css=text",
+    "start": "skruv-dev-server"
+  },
+  "dependencies": {
+    "es-module-shims": "^0.10.3",
+    "skruv": "^0.2.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.10.2",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "glob": "^7.1.6",
+    "jsdom": "^16.5.2",
+    "marked": "^2.0.1",
+    "prismjs": "^1.23.0",
+    "skruv-dev-server": "^0.0.4",
+    "stylelint": "^13.12.0",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}

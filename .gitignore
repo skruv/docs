@@ -1,0 +1,15 @@
+node_modules
+libraries_built
+*.md.js
+*.js.js
+*.json.js
+*.html.js
+diff.js
+diff
+files.json
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
+examples.sh

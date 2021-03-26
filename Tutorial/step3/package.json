@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "skruv-dev-server"
+  },
+  "dependencies": {
+    "skruv": "^0.2.3"
+  },
+  "devDependencies": {
+    "skruv-dev-server": "^0.0.3"
+  }
+}

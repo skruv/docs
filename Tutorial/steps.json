@@ -1,0 +1,14 @@
+{
+  "step0": "Prerequisites & Terminology",
+  "step1": "Hello world",
+  "step2": "HTML elements",
+  "step3": "State management",
+  "step4": "Using components",
+  "step5": "Routing",
+  "step6": "Metadata in <head>",
+  "step7": "Styling & CSS scoping",
+  "step8": "Generators and async",
+  "step9": "Import maps",
+  "step10": "Third party libraries",
+  "step11": "Third party libraries (with build)"
+}
