@@ -20,8 +20,11 @@ server {
     # Attempt TLS 1.3 0rtt
     ssl_early_data on;
 
+    ssl_dhparam /var/www/docs/confs/dhparam;
+
     # modern configuration
-    ssl_protocols TLSv1.3;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;
     ssl_prefer_server_ciphers off;
 
     # HSTS (ngx_http_headers_module is required) (63072000 seconds)
@@ -68,8 +71,11 @@ server {
     # Attempt TLS 1.3 0rtt
     ssl_early_data on;
 
+    ssl_dhparam /var/www/docs/confs/dhparam;
+
     # modern configuration
-    ssl_protocols TLSv1.3;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;
     ssl_prefer_server_ciphers off;
 
     # HSTS (ngx_http_headers_module is required) (63072000 seconds)
@@ -136,8 +142,11 @@ server {
     # Attempt TLS 1.3 0rtt
     ssl_early_data on;
 
+    ssl_dhparam /var/www/docs/confs/dhparam;
+
     # modern configuration
-    ssl_protocols TLSv1.3;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;
     ssl_prefer_server_ciphers off;
 
     # HSTS (ngx_http_headers_module is required) (63072000 seconds)
