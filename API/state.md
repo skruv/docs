@@ -15,7 +15,7 @@ const sub = createState({
   count: 0
 })
 
-setInterval(() => { sub.count = sub.count++ }, 1000)
+setInterval(() => { sub.count++ }, 1000)
 
 ;(async () => {
   for await (const state of sub) {
