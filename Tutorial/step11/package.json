@@ -5,11 +5,11 @@
   },
   "dependencies": {
     "es-module-shims": "^0.10.3",
-    "skruv": "^0.2.3",
+    "skruv": "^0.2.4",
     "uplot": "^1.6.7"
   },
   "devDependencies": {
-    "esbuild": "^0.11.5",
+    "esbuild": "^0.11.6",
     "marked": "^2.0.1",
     "skruv-dev-server": "^0.0.3"
   }

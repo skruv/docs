@@ -3,7 +3,7 @@
     "start": "skruv-dev-server"
   },
   "dependencies": {
-    "skruv": "^0.2.3"
+    "skruv": "^0.2.4"
   },
   "devDependencies": {
     "skruv-dev-server": "^0.0.3"

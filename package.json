@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "es-module-shims": "^0.10.3",
-    "skruv": "^0.2.3"
+    "skruv": "^0.2.4"
   },
   "devDependencies": {
     "esbuild": "^0.10.2",
