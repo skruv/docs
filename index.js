@@ -39,7 +39,7 @@ body {
           meta({ name: 'viewport', content: 'width=device-width, initial-scale=1' }),
           meta({ name: 'description', content: 'Skruv - No-dependency, no-build, small JS framework' }),
           link({ rel: 'icon', href: iconPath, type: 'image/svg+xml', sizes: 'any' }),
-          style({}, water),
+          water,
           baseStyles
         ),
         body({},

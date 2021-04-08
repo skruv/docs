@@ -45,7 +45,7 @@ li {
 `
 
 export default ({ area }) => div({ style: `grid-area: ${area}; display: flex;`, 'data-shadowed': true },
-  style({}, water),
+  water,
   menuStyle,
   menu({},
     ul({}, sub.files.map(file =>

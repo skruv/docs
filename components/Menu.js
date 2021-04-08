@@ -43,7 +43,7 @@ export default ({ area, items }) => div(
     style: `grid-area: ${area}`,
     'data-shadowed': true
   },
-  style({}, water),
+  water,
   menuStyle,
   menu({},
     ul({}, Object.keys(items).map(item => {
